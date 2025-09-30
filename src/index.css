@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
-:root { color-scheme: light; }
-html { font-size: 16px; }
-body { color: #1f2937; background-color: #f3f4f6; }
+:root {
+  color-scheme: light;
+  font-family: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(180deg, #f5fdf9 0%, #ebf7f1 100%);
+  color: #10312e;
+}
+
+#root {
+  min-height: 100vh;
+}
